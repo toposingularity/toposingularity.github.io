@@ -1,13 +1,36 @@
 body {
-	font-family: 'Archivo', sans-serif;
+	font-family: 'Source Serif Pro', serif;
+	color: #333;
+	max-width: 712px;
+	margin: 0 auto;
+	padding-left: 16px;
+	padding-right: 16px;
 }
 
 h1 {
+	font-family: 'Archivo', sans-serif;
+	color: #333;
+	padding-top: 24px;
+	margin-bottom: 16px;
 	font-weight: 700;
-	font-size: 200px;
+	font-size: 64px;
+	line-height: 64px;
+	border-bottom: 4px solid #415CA9;
+	border-radius: 1px;
+	display: inline-block;
+}
+
+h2 {
+	font-family: 'Archivo', sans-serif;
+	font-size: 24px;
+	line-height: 32px;
+	margin-top: 0px;
+	margin-bottom: 40px;
 }
 
 p {
-	font-weight: 300;
-	font-size: 16px;
+	font-size: 24px;
+	line-height: 32px;
+	margin-top: 0px;
+	color: #111;
 }
