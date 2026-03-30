@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#F8F7F4"/>
+  
+  <!-- Ambient top bloom -->
+  <ellipse cx="600" cy="0" rx="450" ry="300" fill="url(#bloom)"/>
+  
+  <!-- Signal wave -->
+  <defs>
+    <linearGradient id="bloom" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#4338CA" stop-opacity="0.12"/>
+      <stop offset="70%" stop-color="#4338CA" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  
+  <path d="M150 315 C 250 300, 350 330, 450 315 C 550 300, 650 330, 750 315 C 850 300, 950 330, 1050 315" 
+        stroke="#4338CA" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <text x="150" y="240" font-family="Georgia, serif" font-size="72" font-weight="700" letter-spacing="-0.02em" fill="#111">Kevin</text>
+  <text x="150" y="325" font-family="Georgia, serif" font-size="72" font-weight="700" letter-spacing="-0.02em" fill="#111">Walorski</text>
+  <text x="150" y="395" font-family="Georgia, serif" font-size="36" font-style="italic" font-weight="300" fill="#666">Product designer by background. Rethinking what that means.</text>
+</svg>
